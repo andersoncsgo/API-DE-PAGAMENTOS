@@ -1,70 +1,84 @@
 # API DE PAGAMENTOS
-### Integração de Pagamentos PIX para Desenvolvedores
+### Seamless Payments, Instant Trust, Limitless Possibilities
 
-![Último Commit](https://img.shields.io/badge/Último%20Commit-Abril-blue)
-![Linguagens](https://img.shields.io/github/languages/top/andersoncsgo/API-DE-PAGAMENTOS)
-![Linguagens Utilizadas](https://img.shields.io/github/languages/count/andersoncsgo/API-DE-PAGAMENTOS)
-![Feito com Flask](https://img.shields.io/badge/Feito%20com-Flask-black?logo=flask)
-![Feito com Python](https://img.shields.io/badge/Feito%20com-Python-3670A0?logo=python)
+![Último Commit](https://img.shields.io/badge/last%20commit-april-blue)
+![HTML](https://img.shields.io/badge/html-41.3%25-orange)
+![Linguagens](https://img.shields.io/badge/languages-3-lightgrey)
 
-## Índice
+Built with the tools and technologies:
 
-* [Visão Geral](#visão-geral)
-* [Como Começar](#como-começar)
-    * [Pré-requisitos](#pré-requisitos)
-    * [Instalação](#instalação)
-* [Uso](#uso)
-* [Testes](#testes)
+![Feito com Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Feito com Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)
 
 ---
 
-## Visão Geral
+## Table of Contents
 
-Bem-vindo(a) à **API de Pagamentos**, uma ferramenta robusta e flexível projetada para desenvolvedores que buscam integrar pagamentos PIX de forma eficiente em suas aplicações web. Com esta API, você pode facilmente gerenciar transações, gerar QR codes dinâmicos e receber atualizações em tempo real para otimizar a experiência de pagamento de seus usuários.
-
-### Recursos Principais
-
-* **Atualizações em Tempo Real (WebSocket):** Mantenha-se atualizado sobre o status dos pagamentos com notificações instantâneas via WebSocket, garantindo uma comunicação fluida e feedback imediato.
-* **Geração de QR Code:** Gere QR codes PIX de forma programática, facilitando a visualização e o pagamento por parte dos clientes.
-* **Segurança e Manuseio de Pagamentos:** Implementação segura para o processamento de transações, protegendo dados sensíveis e garantindo a integridade dos pagamentos.
-* **Integração Full-Stack:** Desenvolvida para ser facilmente integrada tanto no front-end quanto no back-end de suas aplicações.
-* **Gerenciamento Simplificado de Dependências:** Utilize ferramentas populares como Flask e SQLAlchemy para um gerenciamento de dependências descomplicado e um desenvolvimento ágil.
-* **Experiência do Usuário Aprimorada:** Com o Pix e a agilidade da API, ofereça uma experiência de pagamento rápida, segura e sem atritos para seus usuários.
+* [Overview](#overview)
+* [Getting Started](#getting-started)
+    * [Prerequisites](#prerequisites)
+    * [Installation](#installation)
+* [Usage](#usage)
+* [Testing](#testing)
 
 ---
 
-## Como Começar
+## Overview
 
-Siga estas instruções para configurar e executar o projeto em sua máquina local para fins de desenvolvimento e teste.
+API-DE-PAGAMENTOS is a developer-focused tool that simplifies the integration of Pix payment processing into web applications. It offers real-time updates, QR code generation, and secure transaction management to enhance user experience and system reliability.
 
-### Pré-requisitos
+### Why API-DE-PAGAMENTOS?
 
-Certifique-se de ter o Python e o gerenciador de pacotes Pip instalados em seu sistema.
+This project enables seamless Pix payment workflows with features designed for efficiency and security. The core features include:
 
-* [Python](https://www.python.org/downloads/) (versão 3.x recomendada)
-* [Pip](https://pip.pypa.io/en/stable/installation/) (geralmente vem com o Python)
+* 🌐 **Real-time WebSocket updates:** Keep users informed instantly about payment status changes.
+* 📸 **QR code generation:** Facilitate contactless payments with dynamically created QR codes.
+* 🔒 **Secure payment handling:** Manage transactions with robust data models and confirmation flows.
+* 🔄 **Full-stack integration:** Connect backend payment logic with user-friendly frontend templates.
+* 📦 **Easy dependency management:** Built on Flask, SQLAlchemy, and related tools for quick setup.
+* ⚡ **Enhanced user experience:** Clear confirmation pages and error handling for smooth interactions.
 
-### Instalação
+---
 
-1.  Clone o repositório para sua máquina local:
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+This project requires the following dependencies:
+
+* **Programming Language:** Python
+* **Package Manager:** Pip
+
+### Installation
+
+Build API-DE-PAGAMENTOS from the source and install dependencies:
+
+1.  Clone the repository:
     ```bash
     git clone [https://github.com/andersoncsgo/API-DE-PAGAMENTOS](https://github.com/andersoncsgo/API-DE-PAGAMENTOS)
     ```
-2.  Navegue até o diretório do projeto:
+2.  Navigate to the project directory:
     ```bash
     cd API-DE-PAGAMENTOS
     ```
-3.  Instale as dependências necessárias:
+3.  Install the dependencies:
+
+    Using `pip`:
+
     ```bash
     pip install -r requirements.txt
     ```
-    *(**Nota:** Se não houver um `requirements.txt`, você precisará listar as dependências manualmente ou criar o arquivo.)*
+    *(**Note:** Ensure you have a `requirements.txt` file in your repository listing all Python dependencies. If not, you might need to install them individually, e.g., `pip install Flask SQLAlchemy`)*
 
 ---
 
-## Uso
+## Usage
 
-Para executar o projeto, use o seguinte comando:
+Run the project with:
+
+Using `pip`:
 
 ```bash
-python main.py # ou o nome do seu arquivo de entrada principal
+python {entrypoint}
