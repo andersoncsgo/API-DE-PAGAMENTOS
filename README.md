@@ -81,4 +81,4 @@ Execute o projeto com:
 Usando `pip`:
 
 ```bash
-python {entrypoint}
+python app.py
